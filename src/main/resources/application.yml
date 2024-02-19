@@ -1,0 +1,20 @@
+server:
+  port: 28888
+  servlet:
+    context-path: /openupdemo
+spring:
+  application:
+    name: open-demo
+  profiles:
+    active: dev
+  thymeleaf:
+    prefix: classpath:/templates
+openup:
+  appid: e21eeacc6c544a56a6c10348b2a8f6e0
+  appkey: d7beb8bf18a840d9bf8a41ee72482b84
+  publickey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAncNFXIpcB7hm8oDxzrXcRzoWovfJ0myyGF6PBMFv3HFfLeOBTCmCff9cfqEXGKvdqvXVnVoeVTOkKJOnDT1pmX/6m88ZWSoZLmW07u+pNpH5vm2DclOcpQbRFJZgqLygVgIUYe5QilNGRdn6GvWyO4Tbx/qRntUQPXrWgyIFjImfOdJ0n1m8ujoGC6hoeLfkv4XFJnW1QcRnQHWDo87MYFjVAc+oAQTT0zwuqUwnCH5AzY4dJNq8tMpJNCccjnH9cX/lf/xftgXCllLZqk9+Oios9l0051LdgRQc2M7xT5qSolUhRENtkOTOS0gn39xiSb8yXhZzvtPjkGUCvwBtPwIDAQAB
+  notifyUrl: http://ip:port/notifyUrl
+  returnUrl: http://ip:port/returnUrl
+  timeoutExpress: 30
+  shortCode: 10011
+  receiveName: Org Name

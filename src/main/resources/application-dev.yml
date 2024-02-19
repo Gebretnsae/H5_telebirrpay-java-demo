@@ -1,0 +1,7 @@
+logging:
+  level:
+    com.tydic: debug
+  file:
+    name: /home/amm/logs/amm-service/amm-openup-demo.log
+openup:
+  toTradeWebPay: http://ip:port/service-openup/toTradeWebPay
